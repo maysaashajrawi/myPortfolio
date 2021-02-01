@@ -21,8 +21,8 @@
                 <div class="option-box">
                     <h4>Colors</h4>
                     <ul class="colors-list">
-                        <li class ="active" data-color="#52e7d9"></li>
-                        <li data-color="#FC427B"></li>
+                        <li class ="active" data-color="#FC427B"></li>
+                        <li data-color="#52e7d9"></li>
                         <li data-color="#85ed5a"></li>
                         <li data-color="#5ec2a1"></li>
                         <li data-color="#81a3e1"></li>
@@ -41,19 +41,28 @@
             
             <div class="container">
                 <div class="header-area">
-                    <div class="logo">Maysaa Shajrawi</div>
-                    <ul class="links">
+                    <div class="logo"><a href="index.html">Maysaa Shajrawi</a></div>
+                    <div class="links-container">
+                        <ul class="links ">
                     
-                        <li><a  href="#" data-section="#aboutUS" >About</a></li>
-                        <li><a  href="#" data-section="#skills">Skills</a></li>
-                        <li><a  href="#" data-section="#timeLine">Education</a></li>
-                        <li><a  href="#" data-section="#timeLine">Experience</a></li>
-                        <li><a  href="#" data-section="#works">Projects</a></li>
-                        <li><a  href="#" data-section="#contactUs">Contact</a></li>
-                    </ul>
+                            <li><a  href="#" data-section="#aboutUS" >About</a></li>
+                            <li><a  href="#" data-section="#skills">Skills</a></li>
+                            <li><a  href="#" data-section="#timeLine">Education</a></li>
+                            <li><a  href="#" data-section="#timeLine">Experience</a></li>
+                            <li><a  href="#" data-section="#works">Projects</a></li>
+                            <!-- <li><a  href="#" data-section="#contactUs">Contact</a></li> -->
+                        </ul>
+                        <button class="toggle-menu">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </button>
+                    </div>
+                    
+                    
                 </div>
             </div>
-            <canvas id="canvas"></canvas>
+            <!-- <canvas id="canvas"></canvas> -->
             <div class="overlay"></div>
             <div class= "introduction-text">
                 <h1>Hello I'm <span>Maysa'a Shajrawi</span></h1>
@@ -102,41 +111,44 @@
                 <div class = "skills">
                     <div class="skills-side1">
                         <div class="skills-box">
-                            <div class="skill-name">Html</div>
+                            <div class="skill-name">Html & mysql</div>
                             <div class ="skill-progress">
                                 <span data-progress="80%"></span>
                             </div>
                         </div>
                         <div class="skills-box">
-                            <div class="skill-name">css</div>
+                            <div class="skill-name">css & Java Script</div>
+                            <div class ="skill-progress">
+                                <span data-progress="60%"></span>
+                            </div>
+                        </div>
+
+                        <div class="skills-box">
+                            <div class="skill-name">React & Express</div>
+                            <div class ="skill-progress">
+                                <span data-progress="60%"></span>
+                            </div>
+                        </div>
+                        <div class="skills-box">
+                            <div class="skill-name">Bootstrap</div>
                             <div class ="skill-progress">
                                 <span data-progress="70%"></span>
                             </div>
                         </div>
                         <div class="skills-box">
-                            <div class="skill-name">Java Script</div>
+                            <div class="skill-name">Github & Git</div>
                             <div class ="skill-progress">
                                 <span data-progress="60%"></span>
                             </div>
                         </div>
                         <div class="skills-box">
-                            <div class="skill-name">Express</div>
+                            <div class="skill-name"> Node js & MongoDB</div>
                             <div class ="skill-progress">
                                 <span data-progress="60%"></span>
                             </div>
                         </div>
-                        <div class="skills-box">
-                            <div class="skill-name">React</div>
-                            <div class ="skill-progress">
-                                <span data-progress="60%"></span>
-                            </div>
-                        </div>
-                        <div class="skills-box">
-                            <div class="skill-name">Mysql</div>
-                            <div class ="skill-progress">
-                                <span data-progress="80%"></span>
-                            </div>
-                        </div>
+
+                        
     
                     </div>
 
@@ -201,7 +213,7 @@
                             <h2>Education</h2>
                         </div>
                         <div class= "education">
-                                <div class= "ed-content1 content">
+                                <div class= "ed-content1  Rbk content">
                                     
                                     <h4 class="content-title">RebootKamp (RBK)</h4>
                                     <p class="content-position">Web Development bootcamp</p>
@@ -282,12 +294,15 @@
                     </div>
                     
                     <h4>Speak Out</h4>
+                    
                     <p>Allows users who have life challenges to get free advice & tips with the ability to
                         seek support written or by video sessions with licensed doctors and therapists.</p>
                         <span><a target="_blank" href = "https://github.com/maysaashajrawi/speak_out"><i class="fa fa-github icons"  aria-hidden="true"></i></a></span>
                         <span><a target="_blank" href ="https://drive.google.com/file/d/1KQDFiRCxphYN_gyPRo9HsRGQH-pmA3vK/view" ><i class="fa fa-youtube-play icons" aria-hidden="true"></i></a></span>
                         <span><a target="_blank" href ="https://speakout-2.herokuapp.com" ></a><i class="fa fa-link icons" aria-hidden="true"></i></span>
-                </div>
+                        <!-- <a class="more-button" href="speak-out.html" >More Information</a> -->
+                    
+                    </div>
                 <div class="project-content">
                     <div class="project-logo">
                         <img src="imgs/holding-hand.png" class="center" alt="dafa-logo">
@@ -296,7 +311,8 @@
                     <p class="more"> Offer winter clothes for donations in order to utilize them by people in need!</p>
                     <span><a target="_blank" href = "https://github.com/maysaashajrawi/legacy-project-"><i class="fa fa-github icons"  aria-hidden="true"></i></a></span>
                         <span><a target="_blank" href ="https://www.youtube.com/watch?v=MW_72jyjtNk&feature=youtu.be" ><i class="fa fa-youtube-play icons" aria-hidden="true"></i></a></span>
-                    </div>
+                        <!-- <a class="more-button">More Information</a> -->
+                </div>
                 <div class="project-content">
                     <div class="project-logo">
                         <img src="imgs/school.png" alt="School logo" >
@@ -307,7 +323,10 @@
                             marks</p>
                             <span><a target="_blank" href = "https://github.com/maysaashajrawi/eagles-school1"><i class="fa fa-github icons"  aria-hidden="true"></i></a></span>
                         <span><a target="_blank" href ="https://www.youtube.com/watch?v=7kIjlu3UUaA" ><i class="fa fa-youtube-play icons" aria-hidden="true"></i></a></span>
-                </div>
+                           
+                            <!-- <a class="more-button">More Information</a> -->
+                           
+                    </div>
 
             </div>
             <div class="clear"></div>
@@ -315,7 +334,7 @@
         <!-- end works section -->
 
         <!-- start contact section -->
-        <section id="contactUs">
+        <!-- <section id="contactUs">
             <div class="overlay"></div>
             <div class="container">
                 <h2>Contact Me</h2>
@@ -349,13 +368,14 @@
                 </form>
             </div>
             
-        </section>
+        </section> -->
         <!-- end contact section -->
 
 
         <!-- start footer  -->
         <footer>
             <div class="container" >
+                <div class="footer-parent">
                 <div class="contact">
                 <h3>Contact Me</h3>
                 <ul>
@@ -366,9 +386,9 @@
                 </ul>
             </div>
         
-                <!-- <div>
+                <div class="useful-links">
                 <h3>Useful Links</h3>
-                <ul class="links">
+                <ul class="footer-links">
                     
                     <li><a  href="#" data-section="#aboutUS" >About</a></li>
                     <li><a  href="#" data-section="#skills">Skills</a></li>
@@ -377,7 +397,8 @@
                     <li><a  href="#" data-section="#works">Projects</a></li>
                     <li><a  href="#" data-section="#contactUs">Contact</a></li>
                 </ul>
-               </div> -->
+               </div>
+            </div>
                 <div><p>Created with Love By Maysaa shajrawi</p></div>
             </div>
            
