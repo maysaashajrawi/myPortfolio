@@ -334,7 +334,8 @@ font-family: 'Montserrat', sans-serif;
     border:5px solid var(--main-color);
 } */
 #aboutUS .info-box p{
-    color: #796c6c;
+    font-weight: bold;
+    color: #3e3838;
     line-height: 1.8;
     margin-bottom: 22px;
 
@@ -407,7 +408,7 @@ font-family: 'Montserrat', sans-serif;
     text-align: center;
     width: 300px;
     font-weight: bold;
-    color: #796c6c;
+    color: #3e3838;
     /* line-height: 30px */
 }
 #skills .skills-box .skill-progress{
