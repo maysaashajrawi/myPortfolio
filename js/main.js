@@ -69,6 +69,7 @@ window.onscroll = function(){
 }
 //make the smoth scroll
 let allLinks=document.querySelectorAll(".links a");
+let footerLinks=document.querySelectorAll(".footer-links a");
 // function scroll to specific section
 function scrollToSpecificSection(elements){
     elements.forEach(element=>{
@@ -85,6 +86,7 @@ function scrollToSpecificSection(elements){
 })
 }
 scrollToSpecificSection(allLinks)
+scrollToSpecificSection(footerLinks)
 
 //handle active class
 function handleActive(ev){
@@ -103,7 +105,7 @@ function handleActive(ev){
 let toggleBtn = document.querySelector(".toggle-menu")
 
 let toggleLinks =document.querySelector(".links")
-console.log(toggleLinks)
+
 
 
 toggleBtn.onclick=function(e){

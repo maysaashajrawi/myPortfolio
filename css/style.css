@@ -85,7 +85,7 @@ font-family: 'Montserrat', sans-serif;
     opacity : 1;
 }
 .settings-box .option-box .colors-list li:first-child{
-    background-color:#FC427B;
+    background-color:  #81a3e1;
 }
 .settings-box .option-box .colors-list li:nth-child(2){
     background-color:#52e7d9 ;
@@ -97,7 +97,7 @@ font-family: 'Montserrat', sans-serif;
     background-color:#5ec2a1 ;
 }
 .settings-box .option-box .colors-list li:nth-child(5){
-    background-color:#81a3e1 ;
+    background-color:#FC427B ;
 
 }
 .settings-box .option-box .colors-list li:nth-child(6){
